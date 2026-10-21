@@ -40,14 +40,11 @@ public class HighscoreWins {
 
 
         //Create if statements
-        if(homeScore > awayScore){
+        if (homeScore > awayScore) {
             System.out.println("Winner:" + teamNames[0]);
-        } else if (awayScore > homeScore){
+        } else if (awayScore > homeScore) {
             System.out.println("Winner:" + teamNames[1]);
         }
-
-
-
 
 
     }
